@@ -53,3 +53,7 @@ img{
     bottom:0;
     font-size:1vw ;
 }
+
+nav{
+    justify-content: space-between;
+}
