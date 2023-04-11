@@ -29,12 +29,14 @@ header{
     width: 70%;
     margin: 0 auto;
 }
+section{
+    justify-content: space-around;
+}
 .box-utente{
-    width: calc(70%/7);
+    width: calc(96%/7);
     height: calc(100vh/5);
     align-items: flex-end;
     position: relative;
-    padding: 0.5rem;
 }
 
 img{
@@ -46,5 +48,4 @@ img{
     left:0;
     bottom:0;
     font-size:1vw ;
-    padding: .4rem;
 }
