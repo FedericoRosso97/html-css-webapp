@@ -30,7 +30,7 @@ header{
     margin: 0 auto;
     flex-wrap: wrap;
 }
-section{
+main section{
     justify-content: space-around;
 }
 .box-utente{
