@@ -3,6 +3,43 @@
     padding: 0;
     margin: 0;
 }
+
 body{
     background-color: black;
+}
+
+.flex{
+    display: flex;
+}
+
+.white{
+    color:white;
+}
+
+.gray-background{
+background-color: rgba(128, 128, 128, 0.5);
+}
+
+header{
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.box-utente{
+    width: calc(100vw/7);
+    height: calc(100vh/5);
+    align-items: flex-end;
+    position: relative;
+}
+
+img{
+    width: 100%;
+}
+
+.nome-utente{
+    position: absolute;
+    left:0;
+    bottom:0;
+    font-size:1vw ;
+    padding: .4rem;
 }
