@@ -26,13 +26,18 @@ header{
 }
 
 .container{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     flex-wrap: wrap;
 }
+main{
+margin:2rem 0;
+}
+
 main section{
     justify-content: space-around;
 }
+
 .box-utente{
     
     width: calc(96%/7);
