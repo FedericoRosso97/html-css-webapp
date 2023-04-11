@@ -56,4 +56,16 @@ img{
 
 nav{
     justify-content: space-between;
+    padding: 1rem;
+}
+
+nav .middle-section {
+    width: 50vw ;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.nav-section{
+    text-align: center;
+    align-items: center;
 }
