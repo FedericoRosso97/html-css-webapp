@@ -17,12 +17,19 @@ body{
 }
 
 .gray-background{
-background-color: rgba(128, 128, 128, 0.5);
+background-color:rgba(107, 102, 102, 0.543);
 }
 
 header{
     justify-content: flex-end;
     padding: 1rem;
+}
+
+.head-section{
+margin-left: 0.5rem;
+padding: 0.3rem;
+border-radius: 5px;
+gap: 0.3rem;
 }
 
 .container{
@@ -65,7 +72,7 @@ nav{
 }
 
 nav .middle-section {
-    width: 50vw ;
+    width: 45vw ;
     justify-content: space-around;
     text-align: center;
 }
@@ -74,4 +81,12 @@ nav .middle-section {
     text-align: center;
     align-items: center;
     gap: 0.5rem;
+}
+
+#share{
+    color: green;
+}
+
+#recording{
+    color: red;
 }
