@@ -25,12 +25,12 @@ header{
     padding: 1rem;
 }
 
-.main{
-padding: ;
+.container{
+    width: 70%;
+    margin: 0 auto;
 }
-
 .box-utente{
-    width: calc(100vw/7);
+    width: calc(70%/7);
     height: calc(100vh/5);
     align-items: flex-end;
     position: relative;
