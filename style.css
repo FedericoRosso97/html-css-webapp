@@ -25,11 +25,16 @@ header{
     padding: 1rem;
 }
 
+.main{
+padding: ;
+}
+
 .box-utente{
     width: calc(100vw/7);
     height: calc(100vh/5);
     align-items: flex-end;
     position: relative;
+    padding: 0.5rem;
 }
 
 img{
