@@ -33,25 +33,29 @@ gap: 0.3rem;
 }
 
 .container{
+    min-width: 80%;
     width: 80%;
     margin: 0 auto;
     flex-wrap: wrap;
 }
 main{
 margin:2rem 0;
+/*overflow-y: scroll;*/
 }
 
 main section{
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .box-utente{
-    
+    min-width: 100px;
     width: calc(96%/7);
     height:calc(96%5) ;
     align-items: flex-end;
     position: relative;
     margin-bottom:0.5rem ;
+    flex-wrap: wrap;
    
 }
 
@@ -68,19 +72,20 @@ img{
 
 nav{
     justify-content: space-between;
-    padding: 1rem;
 }
 
 nav .middle-section {
     width: 45vw ;
     justify-content: space-around;
     text-align: center;
+    padding: 1rem;
 }
 
 .nav-section{
     text-align: center;
     align-items: center;
     gap: 0.5rem;
+    padding: 1rem;
 }
 
 #share{
